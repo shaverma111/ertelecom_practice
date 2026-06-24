@@ -1,14 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Профессия QA-тестировщик</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <h1 class="logo" href="#">QA<span>Expert</span></h1>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#about">О профессии</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#career">Карьера</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+                            <span class="theme-toggle-label">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Профессия<br><span>QA-тестировщик</span></h2>
+            <p>Гарантируем качество программного обеспечения</p>
+            <a href="#about" class="btn">Узнать больше</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Кто такой тестировщик?</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="icon">&#128270;</div>
+                    <h3>Поиск багов</h3>
+                    <p>Находим дефекты в программном обеспечении до его выпуска</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">&#9989;</div>
+                    <h3>Гарантия качества</h3>
+                    <p>Проверяем продукт на соответствие требованиям и ожиданиям</p>
+                </div>
+                <div class="about-card">
+                    <div class="icon">&#128196;</div>
+                    <h3>Документация</h3>
+                    <p>Составляем тест-кейсы, баг-репорты и чек-листы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Необходимые навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Тестирование</h3>
+                    <ul>
+                        <li>Ручное тестирование</li>
+                        <li>Автоматизация тестирования</li>
+                        <li>Тест-дизайн</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Технические знания</h3>
+                    <ul>
+                        <li>SQL и базы данных</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>API тестирование</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Инструменты</h3>
+                    <ul>
+                        <li>Jira / TestRail</li>
+                        <li>Postman</li>
+                        <li>Selenium / Cypress</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>Внимательность к деталям</li>
+                        <li>Коммуникабельность</li>
+                        <li>Критическое мышление</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="career" class="career">
+        <div class="container">
+            <h2>Карьерный путь</h2>
+            <div class="career-timeline">
+                <div class="career-step">
+                    <div class="step-number">1</div>
+                    <h3>Junior QA</h3>
+                    <p>Ручное тестирование, изучение процессов, работа с документацией</p>
+                </div>
+                <div class="career-step">
+                    <div class="step-number">2</div>
+                    <h3>Middle QA</h3>
+                    <p>Автоматизация, тестирование API, настройка процессов</p>
+                </div>
+                <div class="career-step">
+                    <div class="step-number">3</div>
+                    <h3>Senior QA</h3>
+                    <p>Архитектура тестирования, менторство, стратегия качества</p>
+                </div>
+                <div class="career-step">
+                    <div class="step-number">4</div>
+                    <h3>QA Lead / Manager</h3>
+                    <p>Управление командой, планирование, принятие решений</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Хочешь стать тестировщиком?</h2>
+            <p>Свяжитесь с нами, чтобы узнать о вакансиях и программах обучения</p>
+            <a href="mailto:hr@qaexpert.com" class="btn">Связаться с нами</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 QA Expert. Все права защищены.</p>
+        </div>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
